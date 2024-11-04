@@ -11,9 +11,14 @@ Entregable:
 Repositorio de Github (enlace)
 Diagrama de actividad
 Captura de pantalla de la sección "Testing" de visual studio code donde se aprecia el coverage de los test
-¿Qué es un diagrama de actividad? Los diagramas de actividades, junto con los diagramas de casos de uso y los diagramas de máquina de estados, son considerados diagramas de comportamiento porque describen lo que debe suceder en el sistema que se está modelando.
+¿Qué es un diagrama de actividad? Los diagramas de actividades, 
+junto con los diagramas de casos de uso y los diagramas de máquina de estados, 
+son considerados diagramas de comportamiento 
+porque describen lo que debe suceder en el sistema que se está modelando.
 
-Create a console application that given an integer, n, prints its multiplication table (from 1 to 10). Each multiple n * i (where 1 <= i => 10) should be printed on a new line in the form: n x i = result. ( multiplication table)
+Create a console application that given an integer, n, 
+prints its multiplication table (from 1 to 10). Each multiple n * i (where 1 <= i => 10)
+ should be printed on a new line in the form: n x i = result. ( multiplication table)
 
 Example: given n = 5
 
@@ -26,4 +31,6 @@ Deliverable:
 Github repository (link)
 Activity diagram
 Screenshot of the "Testing" section of Visual Studio Code where you can see the coverage of the tests
-What is an Activity Diagram? Activity diagrams, along with use case diagrams and state machine diagrams, are considered behavioral diagrams because they describe what needs to happen in the system being modeled.
+What is an Activity Diagram? 
+ diagrams, along with use case diagrams and state machine diagrams,
+  are considered behavioral diagrams because they describe what needs to happen in the system being modeled.

@@ -1,17 +1,22 @@
 package org.factoriaf5;
 
-/**
- * Hello world!
- */
+import java.util.Scanner;
+
 public final class App {
     private App() {
     }
-
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input number from 1 to 10: ");
+        int numberIn = scanner.nextInt();
+
+        System.out.println("\ndado n = " + numberIn);
+        System.out.println("\nOutput:");
+        for (int i = 1; i < 11; i++) {
+            int result = numberIn * i;
+            System.out.println(numberIn + " x " + i + " = " + result);
+
+        }
+        scanner.close();
     }
 }
