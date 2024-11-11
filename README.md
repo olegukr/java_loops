@@ -1,3 +1,26 @@
+Java Loops Project - Activity Diagram
+
+```mermaid 
+flowchart TD
+    A([Start]) --> B[Initialize Scanner]
+    B --> C[numberMultiplication]
+    
+    C --> D[inputNumber]
+    D --> E{Is input valid?}
+    
+    E -- Yes --> F[multiplyNumberBy1To10]
+    E -- No --> G[Display error message] --> D
+
+    F --> H[Display multiplication table]
+    H --> I[checkToContinue]
+
+    I -- Yes --> D
+    I -- No --> J([Close Scanner and Exit Program])
+
+  
+```
+
+
 Crea una aplicación de consola que dado un número entero, n, imprima su tabla de multiplicar (del 1 al 10). Cada múltiplo n * i (donde 1 <= i => 10) debe imprimirse en una nueva línea en la forma: n x i = resultado. ( tabla de multiplicación)
 
 Ejemplo: dado n = 5
@@ -34,3 +57,6 @@ Screenshot of the "Testing" section of Visual Studio Code where you can see the 
 What is an Activity Diagram? 
  diagrams, along with use case diagrams and state machine diagrams,
   are considered behavioral diagrams because they describe what needs to happen in the system being modeled.
+
+
+
